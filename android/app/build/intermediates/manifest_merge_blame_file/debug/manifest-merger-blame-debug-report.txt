@@ -1,0 +1,163 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.musicapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.182.0] /home/ashishksi136/.gradle/caches/transforms-3/e13f88164840fe641a466d05cd8edac7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.182.0] /home/ashishksi136/.gradle/caches/transforms-3/e13f88164840fe641a466d05cd8edac7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:react-native-track-player] /home/ashishksi136/Desktop/ReactNative/Project/MusicApp/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-68
+14-->[:react-native-track-player] /home/ashishksi136/Desktop/ReactNative/Project/MusicApp/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-65
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->[:react-native-track-player] /home/ashishksi136/Desktop/ReactNative/Project/MusicApp/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-77
+15-->[:react-native-track-player] /home/ashishksi136/Desktop/ReactNative/Project/MusicApp/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-74
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.exoplayer:exoplayer-core:2.18.1] /home/ashishksi136/.gradle/caches/transforms-3/3545c201b20b526647e3b8ec22a47bf8/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:24:5-79
+16-->[com.google.android.exoplayer:exoplayer-core:2.18.1] /home/ashishksi136/.gradle/caches/transforms-3/3545c201b20b526647e3b8ec22a47bf8/transformed/jetified-exoplayer-core-2.18.1/AndroidManifest.xml:24:22-76
+17
+18    <permission
+18-->[androidx.core:core:1.9.0] /home/ashishksi136/.gradle/caches/transforms-3/6071112da32bfbae80caeb5ecfa6fe8d/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+19        android:name="com.musicapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.9.0] /home/ashishksi136/.gradle/caches/transforms-3/6071112da32bfbae80caeb5ecfa6fe8d/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.9.0] /home/ashishksi136/.gradle/caches/transforms-3/6071112da32bfbae80caeb5ecfa6fe8d/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.musicapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.9.0] /home/ashishksi136/.gradle/caches/transforms-3/6071112da32bfbae80caeb5ecfa6fe8d/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.9.0] /home/ashishksi136/.gradle/caches/transforms-3/6071112da32bfbae80caeb5ecfa6fe8d/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+23
+24    <queries>
+24-->[androidx.test:runner:1.4.0] /home/ashishksi136/.gradle/caches/transforms-3/e7f43592051571add194abf4324589b2/transformed/runner-1.4.0/AndroidManifest.xml:24:5-28:15
+25        <package android:name="androidx.test.orchestrator" />
+25-->[androidx.test:runner:1.4.0] /home/ashishksi136/.gradle/caches/transforms-3/e7f43592051571add194abf4324589b2/transformed/runner-1.4.0/AndroidManifest.xml:25:9-62
+25-->[androidx.test:runner:1.4.0] /home/ashishksi136/.gradle/caches/transforms-3/e7f43592051571add194abf4324589b2/transformed/runner-1.4.0/AndroidManifest.xml:25:18-59
+26        <package android:name="androidx.test.services" />
+26-->[androidx.test:runner:1.4.0] /home/ashishksi136/.gradle/caches/transforms-3/e7f43592051571add194abf4324589b2/transformed/runner-1.4.0/AndroidManifest.xml:26:9-58
+26-->[androidx.test:runner:1.4.0] /home/ashishksi136/.gradle/caches/transforms-3/e7f43592051571add194abf4324589b2/transformed/runner-1.4.0/AndroidManifest.xml:26:18-55
+27        <package android:name="com.google.android.apps.common.testing.services" />
+27-->[androidx.test:runner:1.4.0] /home/ashishksi136/.gradle/caches/transforms-3/e7f43592051571add194abf4324589b2/transformed/runner-1.4.0/AndroidManifest.xml:27:9-83
+27-->[androidx.test:runner:1.4.0] /home/ashishksi136/.gradle/caches/transforms-3/e7f43592051571add194abf4324589b2/transformed/runner-1.4.0/AndroidManifest.xml:27:18-80
+28    </queries>
+29
+30    <application
+30-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/main/AndroidManifest.xml:5:5-24:19
+31        android:name="com.musicapp.MainApplication"
+31-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/main/AndroidManifest.xml:6:7-38
+32        android:allowBackup="false"
+32-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/main/AndroidManifest.xml:10:7-34
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.9.0] /home/ashishksi136/.gradle/caches/transforms-3/6071112da32bfbae80caeb5ecfa6fe8d/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/main/AndroidManifest.xml:8:7-41
+36        android:label="@string/app_name"
+36-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/main/AndroidManifest.xml:7:7-39
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/main/AndroidManifest.xml:9:7-52
+38        android:theme="@style/AppTheme"
+38-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/main/AndroidManifest.xml:11:7-38
+39        android:usesCleartextTraffic="true" >
+39-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/debug/AndroidManifest.xml:8:9-44
+40        <activity
+40-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/debug/AndroidManifest.xml:11:9-111
+41            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+41-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/debug/AndroidManifest.xml:11:19-83
+42            android:exported="false" />
+42-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/debug/AndroidManifest.xml:11:84-108
+43        <activity
+43-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/main/AndroidManifest.xml:12:7-23:18
+44            android:name="com.musicapp.MainActivity"
+44-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/main/AndroidManifest.xml:13:9-37
+45            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+45-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/main/AndroidManifest.xml:15:9-118
+46            android:exported="true"
+46-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/main/AndroidManifest.xml:18:9-32
+47            android:label="@string/app_name"
+47-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/main/AndroidManifest.xml:14:9-41
+48            android:launchMode="singleTask"
+48-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/main/AndroidManifest.xml:16:9-40
+49            android:windowSoftInputMode="adjustResize" >
+49-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/main/AndroidManifest.xml:17:9-51
+50            <intent-filter>
+50-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/main/AndroidManifest.xml:19:9-22:25
+51                <action android:name="android.intent.action.MAIN" />
+51-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/main/AndroidManifest.xml:20:13-65
+51-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/main/AndroidManifest.xml:20:21-62
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/main/AndroidManifest.xml:21:13-73
+53-->/home/ashishksi136/Desktop/ReactNative/Project/MusicApp/android/app/src/main/AndroidManifest.xml:21:23-70
+54            </intent-filter>
+55        </activity> <!-- The main service, handles playback, playlists and media buttons -->
+56        <service
+56-->[:react-native-track-player] /home/ashishksi136/Desktop/ReactNative/Project/MusicApp/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-20:19
+57            android:name="com.doublesymmetry.trackplayer.service.MusicService"
+57-->[:react-native-track-player] /home/ashishksi136/Desktop/ReactNative/Project/MusicApp/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-79
+58            android:enabled="true"
+58-->[:react-native-track-player] /home/ashishksi136/Desktop/ReactNative/Project/MusicApp/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-35
+59            android:exported="false" >
+59-->[:react-native-track-player] /home/ashishksi136/Desktop/ReactNative/Project/MusicApp/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+60            <intent-filter>
+60-->[:react-native-track-player] /home/ashishksi136/Desktop/ReactNative/Project/MusicApp/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-19:29
+61                <action android:name="android.intent.action.MEDIA_BUTTON" />
+61-->[:react-native-track-player] /home/ashishksi136/Desktop/ReactNative/Project/MusicApp/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-77
+61-->[:react-native-track-player] /home/ashishksi136/Desktop/ReactNative/Project/MusicApp/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:25-74
+62            </intent-filter>
+63        </service> <!-- A receiver that will receive media buttons. Required on pre-lollipop devices -->
+64        <receiver
+64-->[:react-native-track-player] /home/ashishksi136/Desktop/ReactNative/Project/MusicApp/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-29:20
+65            android:name="androidx.media.session.MediaButtonReceiver"
+65-->[:react-native-track-player] /home/ashishksi136/Desktop/ReactNative/Project/MusicApp/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-70
+66            android:exported="true" >
+66-->[:react-native-track-player] /home/ashishksi136/Desktop/ReactNative/Project/MusicApp/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
+67            <intent-filter>
+67-->[:react-native-track-player] /home/ashishksi136/Desktop/ReactNative/Project/MusicApp/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-19:29
+68                <action android:name="android.intent.action.MEDIA_BUTTON" />
+68-->[:react-native-track-player] /home/ashishksi136/Desktop/ReactNative/Project/MusicApp/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-77
+68-->[:react-native-track-player] /home/ashishksi136/Desktop/ReactNative/Project/MusicApp/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:25-74
+69            </intent-filter>
+70        </receiver>
+71
+72        <provider
+72-->[androidx.emoji2:emoji2:1.0.0] /home/ashishksi136/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+73            android:name="androidx.startup.InitializationProvider"
+73-->[androidx.emoji2:emoji2:1.0.0] /home/ashishksi136/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+74            android:authorities="com.musicapp.androidx-startup"
+74-->[androidx.emoji2:emoji2:1.0.0] /home/ashishksi136/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+75            android:exported="false" >
+75-->[androidx.emoji2:emoji2:1.0.0] /home/ashishksi136/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+76            <meta-data
+76-->[androidx.emoji2:emoji2:1.0.0] /home/ashishksi136/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+77                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+77-->[androidx.emoji2:emoji2:1.0.0] /home/ashishksi136/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+78                android:value="androidx.startup" />
+78-->[androidx.emoji2:emoji2:1.0.0] /home/ashishksi136/.gradle/caches/transforms-3/223146ef33e3aa619e8b04649706e145/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+79            <meta-data
+79-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/ashishksi136/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+80                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+80-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/ashishksi136/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+81                android:value="androidx.startup" />
+81-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/ashishksi136/.gradle/caches/transforms-3/d5d05479173d466a6bd0989b3b3e5ef4/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+82        </provider>
+83
+84        <meta-data
+84-->[com.facebook.soloader:soloader:0.10.5] /home/ashishksi136/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+85            android:name="com.facebook.soloader.enabled"
+85-->[com.facebook.soloader:soloader:0.10.5] /home/ashishksi136/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+86            android:value="false" />
+86-->[com.facebook.soloader:soloader:0.10.5] /home/ashishksi136/.gradle/caches/transforms-3/ec3312a013bd7d8a70466a1977a1dba4/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+87    </application>
+88
+89</manifest>
